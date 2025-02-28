@@ -35,7 +35,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Contenu principal */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +71,6 @@ main {
     text-decoration: none;
 }
 
-/* Sections Expérience, Formation et Compétences */
 .experience, .education, .skills {
     background: white;
     padding: 20px;
