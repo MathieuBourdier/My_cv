@@ -1,4 +1,3 @@
-// Définition des traductions en français et anglais
 const translations = {
     en: {
         job: "Web & Mobile Developer",
@@ -27,7 +26,7 @@ const translations = {
         experienceTitle: "Expérience Professionnelle",
         experience: "Vente en Commerce",
         experienceDate: "2019 - 2024",
-        experienceText: "Durant mon parcours professionnel jai pu acquérir de l’experience dans ce domaine, de vendeur à Responsable de boutique. dans différentes enseignes. (Courir, Petit Bateau, Action, Fésti et Capstone Box)",
+        experienceText: "Durant mon parcours professionnel jai pu acquérir de l’experience dans ce domaine, de vendeur à Responsable de boutique, dans différentes enseignes. (Courir, Petit Bateau, Action, Fésti et Capstone Box)",
         educationTitle: "Formation",
         education: "Développeur Web",
         educationDate: "DonkeySchool - Sept 2024 à Présent",
@@ -38,14 +37,12 @@ const translations = {
     }
 };
 
-// Langue actuelle (défaut: français)
 let currentLang = "fr";
 
-// Fonction de changement de langue
 function switchLanguage() {
     currentLang = currentLang === "fr" ? "en" : "fr";
 
-    // Mise à jour des textes avec les traductions
+  
     document.getElementById("job-title").textContent = translations[currentLang].job;
     document.getElementById("subtitle").textContent = translations[currentLang].subtitle;
     document.getElementById("profile-title").textContent = translations[currentLang].profileTitle;
@@ -63,6 +60,4 @@ function switchLanguage() {
     document.querySelector(".mailto").textContent = translations[currentLang].contactMe;
     document.getElementById("lang-btn").textContent = translations[currentLang].langBtn;
 }
-
-// Ajout de l'écouteur d'événement au bouton
 document.getElementById("lang-btn").addEventListener("click", switchLanguage);
