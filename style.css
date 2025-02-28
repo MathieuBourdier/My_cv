@@ -1,4 +1,4 @@
-linkedin {
+.lynk {
     display:inline-block;
     background:#0077B5;
     color:#fff;
@@ -8,6 +8,15 @@ linkedin {
     font-weight:bold;
 }
 
+.mailto{
+    display:inline-block;
+    background:#28a745;
+    color:#fff;
+    padding:10px 15px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+}
     body {
     font-family: Arial, sans-serif;
     margin: 0;
