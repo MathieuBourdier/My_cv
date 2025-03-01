@@ -1,3 +1,5 @@
+//parameters translation
+
 const translations = {
     en: {
         job: "Web & Mobile Developer",
@@ -36,13 +38,13 @@ const translations = {
         langBtn: "🇬🇧 English"
     }
 };
-
+//parameters language
 let currentLang = "fr";
 
 function switchLanguage() {
     currentLang = currentLang === "fr" ? "en" : "fr";
 
-  
+  //change the language of the page
     document.getElementById("job-title").textContent = translations[currentLang].job;
     document.getElementById("subtitle").textContent = translations[currentLang].subtitle;
     document.getElementById("profile-title").textContent = translations[currentLang].profileTitle;
@@ -61,3 +63,22 @@ function switchLanguage() {
     document.getElementById("lang-btn").textContent = translations[currentLang].langBtn;
 }
 document.getElementById("lang-btn").addEventListener("click", switchLanguage);
+//parameters dark mode 
+const darkModeBtn = document.getElementById("dark-mode-btn");
+
+// check if dark mode is enabled
+if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+}
+
+// activate dark mode
+darkModeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    // save the state of dark mode
+    if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "enabled");
+    } else {
+        localStorage.setItem("darkMode", "disabled");
+    }
+});

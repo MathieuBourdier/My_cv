@@ -123,6 +123,7 @@ h2 {
     border-radius: 5px;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
     main {
         flex-direction: column;
@@ -131,4 +132,38 @@ h2 {
     .profile, .experience, .education, .skills {
         width: 90%;
     }
+}
+/*if darmode activated,*/
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background: linear-gradient(90deg, #1a1a1a, #000000);
+}
+
+.dark-mode nav {
+    background: #222;
+}
+
+.dark-mode nav ul li a {
+    color: #ffffff;
+}
+
+.dark-mode .profile,
+.dark-mode .experience,
+.dark-mode .education,
+.dark-mode .skills {
+    background: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .socials a {
+    background: #444;
+}
+
+.dark-mode .tags span {
+    background: #333;
 }
