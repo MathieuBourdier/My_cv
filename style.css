@@ -168,7 +168,7 @@ body.dark-mode {
     background: #333;
 }
 
-/* styles.css */
+/* styles.css for chatbox*/
 .chat-container {
     position: fixed;
     bottom: 20px;
@@ -183,7 +183,7 @@ body.dark-mode {
 }
 
 .chat-header {
-    background: #e91e63;
+    background: #2c3e50;
     color: white;
     padding: 10px;
     text-align: center;
@@ -217,7 +217,7 @@ body.dark-mode {
 }
 
 .bot {
-    background: #e0e0e0;
+    background: #979494;
 }
 
 .user {
