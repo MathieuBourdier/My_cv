@@ -26,7 +26,7 @@ const translations = {
         experienceTitle: "Expérience Professionnelle",
         experience: "Vente en Commerce",
         experienceDate: "2019 - 2024",
-        experienceText: "Durant mon parcours professionnel jai pu acquérir de l’experience dans ce domaine, de vendeur à Responsable de boutique, dans différentes enseignes. (Courir, Petit Bateau, Action, Fésti et Capstone Box)",
+        experienceText: "Tout au long de mon parcours professionnel, j'ai acquis une précieuse expérience dans le secteur de la vente au détail, évoluant du poste de Vendeur à celui de Responsable de Magasin. J'ai travaillé avec plusieurs marques renommées, notamment Courir, Petit Bateau, Action, Fésti et Capstone Box, développant de solides compétences en service client, gestion d'équipe et stratégie commerciale.",
         educationTitle: "Formation",
         education: "Développeur Web",
         educationDate: "DonkeySchool - Sept 2024 à Présent",
