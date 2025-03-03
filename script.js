@@ -25,11 +25,11 @@ const translations = {
         profileTitle: "Profil",
         profileText: "Passionné, j’allie expertise technique et créativité pour concevoir des solutions web performantes et adaptées aux besoins des utilisateurs. Curieux et rigoureux, j’ai un fort attrait pour l’apprentissage constant des nouvelles technologies et des meilleures pratiques de développement. Grâce à mon esprit d’équipe et à mon sens de la communication, je collabore efficacement avec les équipes pour livrer des projets de qualité tout en respectant les délais.",
         contactTitle: "Contact",
-        experienceTitle: "Expérience Professionnelle",
+        experienceTitle: "Expériences Professionnelles",
         experience: "Vente en Commerce",
         experienceDate: "2019 - 2024",
         experienceText: "Tout au long de mon parcours professionnel, j'ai acquis une précieuse expérience dans le secteur de la vente au détail, évoluant du poste de Vendeur à celui de Responsable de Magasin. J'ai travaillé avec plusieurs marques renommées, notamment Courir, Petit Bateau, Action, Fésti et Capstone Box, développant de solides compétences en service client, gestion d'équipe et stratégie commerciale.",
-        educationTitle: "Formation",
+        educationTitle: "Formations",
         education: "Développeur Web",
         educationDate: "DonkeySchool - Sept 2024 à Présent",
         educationText: "Durant ma formation, j’ai acquis une solide maîtrise des technologies front-end telles que HTML, CSS et JavaScript. J’ai eu l’opportunité de travailler sur un projet concret où, avec mon équipe, nous avons conçu et développé un site web sur WordPress pour une société de ménage. Ce projet m’a permis de renforcer mes compétences en conception d’interfaces utilisateur, en intégration de fonctionnalités spécifiques et en optimisation de l’expérience utilisateur. De plus, cette expérience m’a sensibilisé aux exigences d’un client et m’a appris à travailler en équipe de manière efficace..",
@@ -63,6 +63,7 @@ function switchLanguage() {
     document.getElementById("lang-btn").textContent = translations[currentLang].langBtn;
 }
 document.getElementById("lang-btn").addEventListener("click", switchLanguage);
+
 //parameters dark mode 
 const darkModeBtn = document.getElementById("dark-mode-btn");
 
