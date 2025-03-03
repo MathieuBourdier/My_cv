@@ -236,8 +236,13 @@ body.dark-mode {
     color: white;
     border: none;
     padding: 5px 10px;
-    margin: 5px;
+    margin: 3px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 10px;
+}
+
+.hidden {
+    display: none;
 }
 

@@ -101,6 +101,15 @@ function sendQuestion(question) {
             case "Comment vous contacter ?":
                 response = "Vous pouvez me joindre par mail à math.9408@gmail.com.";
                 break;
+            case "Quelle est votre parcours ?":
+                response = "J’ai débuté ma carrière en tant que vendeur chez Courir, où j’ai rapidement évolué pour devenir adjoint de magasin. J’ai ensuite occupé des postes d’adjoint chez Petit Bateau et Action, avant de devenir responsable de magasin chez Festi. Mon parcours m’a ensuite conduit à un rôle de responsable de centre de stockage chez Capstone Box, où j’ai pu développer mes compétences en gestion, logistique et management. Aujourd’hui, je suis en reconversion professionnelle et je suis une formation de développeur web et mobile, avec pour objectif d’acquérir de nouvelles compétences et d’évoluer dans le domaine du numérique.";
+                break;
+            case "Pourquoi devenir développeur web ?":
+                response = "Après 15 ans dans la vente, j’ai décidé de me reconvertir dans le développement web, un domaine qui m’a toujours passionné. Depuis longtemps attiré par l’informatique et les nouvelles technologies, j’ai vu dans ce métier une opportunité d’allier créativité et logique, tout en relevant de nouveaux défis chaque jour. Le développement web est un secteur en constante évolution, offrant de nombreuses perspectives d’avenir et la possibilité de travailler de partout, en toute flexibilité. Cette reconversion me permet aujourd’hui d’explorer un univers qui me passionne et de construire des projets concrets et innovants.";
+                break;
+            case "Quels sont vos centres d interet ?":
+                response = "APassionné par le codage informatique, j’aime explorer de nouvelles technologies et créer des projets innovants qui allient performance et créativité.J’accorde également une grande importance aux moments en famille et entre amis, que ce soit lors de sorties conviviales ou à travers des jeux vidéo et jeux de société, qui renforcent les liens et stimulent la réflexion stratégique.";
+                break;
             /* QUESTION A RAJOUTER case "Comment vous contacter ?":
                 response = "Vous pouvez me joindre par mail à math.9408@gmail.com.";
                 break;; */
@@ -121,5 +130,18 @@ function toggleChat() {
         toggleIcon.textContent = "▲";
     } else {
         toggleIcon.textContent = "▼";
+    }
+}
+
+function toggleQuestions() {
+    const extraQuestions = document.getElementById("extra-questions");
+    const toggleButton = document.getElementById("toggle-questions-btn");
+
+    if (extraQuestions.classList.contains("hidden")) {
+        extraQuestions.classList.remove("hidden");
+        toggleButton.textContent = "Voir moins";
+    } else {
+        extraQuestions.classList.add("hidden");
+        toggleButton.textContent = "Voir plus";
     }
 }
