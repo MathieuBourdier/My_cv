@@ -95,7 +95,7 @@ function sendQuestion(question) {
             case "Que recherchez vous comme poste ?":
                 response = "Je suis à la recherche d’un stage de développeur d'une durée de six mois.";
                 break;
-            case "Quand etes vous disponnible ?":
+            case "Quand êtes-vous disponnible ?":
                 response = "Je suis actuellement en formation chez Donkeyschool et disponible dès le 16 septembre 2025.";
                 break;
             case "Comment vous contacter ?":
