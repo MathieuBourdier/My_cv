@@ -130,7 +130,7 @@ h2 {
         align-items: center;
     }
     .profile, .experience, .education, .skills {
-        width: 90%;
+        width: 80%;
     }
 }
 /*if darmode activated,*/
