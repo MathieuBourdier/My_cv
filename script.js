@@ -16,6 +16,8 @@ const translations = {
         educationDate: "DonkeySchool - Sept 2024 to Present",
         educationText: "During my training, I developed a strong command of front-end technologies such as HTML, CSS, and JavaScript. I had the opportunity to work on a hands-on project where, together with my team, we designed and developed a WordPress website for a cleaning company. This project allowed me to strengthen my skills in user interface design, feature integration, and user experience optimization. Additionally, this experience enhanced my understanding of client requirements and taught me how to collaborate effectively within a team.",
         skillsTitle: "Skills",
+        realizationTitle: "Achievements",
+        realizationText: "Creation of a website for a cleaning company, BCH Services, using WordPress.",
         contactMe: "📩 Contact Me",
         langBtn: "🇫🇷 Français"
     },
@@ -34,6 +36,8 @@ const translations = {
         educationDate: "DonkeySchool - Sept 2024 à Présent",
         educationText: "Durant ma formation, j’ai acquis une solide maîtrise des technologies front-end telles que HTML, CSS et JavaScript. J’ai eu l’opportunité de travailler sur un projet concret où, avec mon équipe, nous avons conçu et développé un site web sur WordPress pour une société de ménage. Ce projet m’a permis de renforcer mes compétences en conception d’interfaces utilisateur, en intégration de fonctionnalités spécifiques et en optimisation de l’expérience utilisateur. De plus, cette expérience m’a sensibilisé aux exigences d’un client et m’a appris à travailler en équipe de manière efficace..",
         skillsTitle: "Compétences",
+        realizationTitle: "Achievements",
+        realizationText: "Realisation d'un site web pour une entreprise de ménage, BCH Services , avec WordPress",
         contactMe: "📩 Contactez-moi",
         langBtn: "🇬🇧 English"
     }
@@ -61,6 +65,9 @@ function switchLanguage() {
     document.getElementById("skills-title").textContent = translations[currentLang].skillsTitle;
     document.querySelector(".mailto").textContent = translations[currentLang].contactMe;
     document.getElementById("lang-btn").textContent = translations[currentLang].langBtn;
+    document.getElementById("realization-title").textContent = translations[currentLang].realizationTitle;
+    document.getElementById("realization-text").textContent = translations[currentLang].realizationText;
+
 }
 document.getElementById("lang-btn").addEventListener("click", switchLanguage);
 
