@@ -48,7 +48,7 @@ let currentLang = "fr";
 function switchLanguage() {
     currentLang = currentLang === "fr" ? "en" : "fr";
 
-  //change the language of the page
+  //change the language 
     document.getElementById("job-title").textContent = translations[currentLang].job;
     document.getElementById("subtitle").textContent = translations[currentLang].subtitle;
     document.getElementById("profile-title").textContent = translations[currentLang].profileTitle;

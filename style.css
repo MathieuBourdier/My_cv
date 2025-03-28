@@ -28,7 +28,7 @@
     text-decoration:none;
     font-weight:bold;
 }
-g
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -130,10 +130,10 @@ h2 {
         align-items: center;
     }
     .profile, .experience, .education, .skills {
-        width: 80%;
+        width: 8%;        
     }
 }
-/*if darmode activated,*/
+/*if darmode activated*/
 body.dark-mode {
     background-color: #121212;
     color: #ffffff;
